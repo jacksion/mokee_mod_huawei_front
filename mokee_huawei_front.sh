@@ -12,7 +12,7 @@ VENDOR=$SRCDIR/../android_vendor_huawei
 DSTDIR=$1
 if [ -z "$DSTDIR" ]
 then
-    echo "Usage: $0 <cm 10.1 dir>"
+    echo "Usage: $0 <mokee source code dir>"
     exit 1
 fi
 
